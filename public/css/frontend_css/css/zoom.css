@@ -1,0 +1,15 @@
+.zoom {
+    display: inline-block;
+    position: relative;
+}
+
+.zoom:after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(/public/images/images_frontend/images/icon.png);
+}
